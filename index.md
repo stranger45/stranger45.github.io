@@ -1,3 +1,5 @@
+title: Murray Gainer Paintings.
+description: This page features the artwork of Murray Gainer.
 
 <!DOCTYPE html>
 <!-- Sam Gainer 
