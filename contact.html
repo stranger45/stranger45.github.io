@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--Sam Gainer-->
+<html lang="en US">
+    <head>
+        <script src = "samscript.js"></script>
+        <link rel="stylesheet" type="text/css" href="samstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>MG Paintings | Contact</title>
+        <h1>Murray Gainer Paintings | <span class ="page">Contact</h1></span>
+    </head>
+
+    <body>
+        <div class ="nav">
+            <nav>
+                
+                <a href="mur.html">HOME</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="archive.html">ARCHIVE</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT US</a>
+            </nav>
+        </div>
+        <br>
+        <table>
+            <tr>
+                <th><ins>Name</ins></th>
+                <th><ins>Title</ins></th>
+                <th><ins>Contact</ins></th>
+            </tr>
+            <tr>
+                <th>Murray Gainer</th>
+                <th>Artist</th>
+                <th><i class="fa fa-envelope-o" style="font-size:24px; color :lime"></i><a href="mailto:mur35@hotmail.com">Email</a></th>
+            </tr>
+            <tr>
+                <th>Sam Gainer</th>
+                <th>Web Designer</th>
+                <th><i class="fa fa-envelope-o" style="font-size:24px; color: lime"></i><a href="mailto:gainer@live.ca">Email</a></th>
+            </tr>
+        </table>
+        <br>
+
+       <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<SCRIPT 
+
+LANGUAGE="JavaScript">
+
+var timerID = null;
+var timerRunning = false;
+
+function stopclock ()
+{
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function showtime () 
+{
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+
+var timeValue = "" + ((hours >12) ? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+timeValue += (hours >= 12) ? " P.M." : " A.M."
+document.clock.face.value = timeValue;
+
+// you could replace the above with this
+// and have a clock on the status bar:
+// window.status = timeValue;
+
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+
+function startclock () 
+{
+// Make sure the clock is stopped
+stopclock();
+showtime();
+}
+
+</SCRIPT>
+
+<BODY onLoad="startclock(); timerONE=window.setTimeout"
+
+TEXT="ffffff">
+
+<CENTER><form name="clock" onSubmit="0">
+<input type="text" name="face" size=13 value=""></CENTER><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
+
+        <h3>Sign our guest book!</h3>
+
+     
+
+        <form method="post">
+            Enter Your Text Here:<br>
+            <input type="text" name="textdata"><br>
+            <input type="submit" name="submit">    
+        </form>
+
+        
+        <br>
+
+        <i class="fa fa-facebook-official" style="font-size:48px;color:lightskyblue"></i>
+        <a></i>Lastly, vist our <a href="https://www.facebook.com/MurrayGainerPaintings" target="_blank">Facebook</a> <a> page<i class="fa fa-facebook-official" style="font-size:48px;color:lightskyblue"></i></a>
+        <br>
+ 
+        <a>Here is a webpage dedicated to <a href="leo.html" target="_blank">Leo</a> our wonderful dog </a>
+        
+        <br><br>
+        <address>Web page created by Sam Gainer <br> Last updated 2/7/2021</address>

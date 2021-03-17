@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--Sam Gainer-->
+<html lang="en US">
+    <head>
+        <link rel="stylesheet" type="text/css" href="samstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>MG Paintings | Gallery</title>
+        <h1>Murray Gainer Paintings |<span class ="page"> Gallery</h1></span>
+    </head>
+
+    <body>
+        <div class ="nav">
+            <nav>
+                <a href="mur.html">HOME</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="archive.html">ARCHIVE</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT US</a>
+            </nav>
+        </div>
+
+        <p>Welcome to the experimental gallery!</p>
+        <p>Click any image to enlarge.  Check back often for more content. </p> 
+
+        <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<style>
+.container {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  -webkit-box-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover {
+  -webkit-box-flex: 1;
+          flex: 1 1 50%;
+}
+
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<div class="container">
+<div class="box">
+<img src="" alt = "Image Hover Effect 1" id = "image1">
+
+<script>  // This Script changes the 5 images displayed using the "Image Hover Effect by random each time the page is loaded"
+
+  var randomNumber = Math.floor((Math.random()*22)+1);
+  document.getElementById("image1").src = randomNumber + ".jpg";
+
+</script>
+</div>
+
+<div class="box">
+<img src="" alt = "Image Hover Effect 2" id = "image2">
+<script>
+
+  var randomNumber = Math.floor((Math.random()*22)+1);
+  document.getElementById("image2").src = randomNumber + ".jpg";
+</script>
+</div>
+
+<div class="box">
+<img src="" alt = "Image Hover Effect 3" id = "image3">
+<script>
+
+  var randomNumber = Math.floor((Math.random()*22)+1);
+  document.getElementById("image3").src = randomNumber + ".jpg";
+  if (("image2").src == ("image1").src){  //Tried to do an "if" statement to ensure that duplicate random images are not displayed on the same page load but no sucess so i commented it out
+  document.getElementById("image3").src = "mur" + ".jpg";  //Image of my dad appears instead
+}
+</script>
+</div>
+
+<div class="box">
+<img src="1.jpg" alt = "Image Hover Effect 4" id = "image4">
+<script>
+
+  var randomNumber = Math.floor((Math.random()*22)+1);
+  document.getElementById("image4").src = randomNumber + ".jpg";
+
+</script>
+
+</div>
+
+<div class="box">
+<img src="2.jpg" alt = "Image Hover Effect 5" id = "image5">
+<script>
+
+  var randomNumber = Math.floor((Math.random()*22)+1);
+  document.getElementById("image5").src = randomNumber + ".jpg";
+
+</script>
+</div>
+
+</div><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
+
+<!-- End of script from www.javascriptfreecode.com -->
+
+<p id = "demo"> Message </p>
+
+       
+        <div class ="paint2">
+        <paint2>
+        <a href = "9.jpg" target="_blank">
+        <img src="9.jpg" alt = "Untitled 9" width="360" height="280" id ="image"></a>
+        <a href = "8.jpg" target="_blank">
+        <img src="8.jpg" alt = "Untitled 8" width="360" height="280" id ="image"></a>
+        <a href = "7.jpg" target="_blank">
+        <img src="7.jpg" alt = "Untitled 7" width="360" height="280" id ="image"></a>
+        <a href = "1.jpg" target="_blank">
+        <img src="1.jpg" alt = "Untitled 1" width="360" height="280" id ="image"></a>
+        <a href = "2.jpg" target="_blank">
+        <img src="2.jpg" alt = "Untitled 2" width="360" height="280" id ="image"></a>
+        <a href = "3.jpg" target="_blank">
+        <img src="3.jpg" alt = "Untitled 3" width="360" height="280" id ="image"></a>
+        <a href = "4.jpg" target="_blank">
+        <img src="4.jpg" alt = "Untitled 4" width="360" height="280" id ="image"></a>
+        <a href = "5.jpg" target="_blank">
+        <img src="5.jpg" alt = "Untitled 5" width="360" height="280" id ="image"></a>
+        <a href = "6.jpg" target="_blank">
+        <img src="6.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "10.jpg" target="_blank">
+        <img src="10.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "11.jpg" target="_blank">
+        <img src="11.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "12.jpg" target="_blank">
+        <img src="12.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "13.jpg" target="_blank">
+        <img src="13.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "14.jpg" target="_blank">
+        <img src="14.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "15.jpg" target="_blank">
+        <img src="15.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "16.jpg" target="_blank">
+        <img src="16.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "17.jpg" target="_blank">
+        <img src="17.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "18.jpg" target="_blank">
+        <img src="18.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "19.jpg" target="_blank">
+        <img src="19.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "20.jpg" target="_blank">
+        <img src="20.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "21.jpg" target="_blank">
+        <img src="21.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+        <a href = "22.jpg" target="_blank">
+        <img src="22.jpg" alt = "Untitled 6" width="360" height="280" id ="image"></a>
+
+        </paint2>
+        </div>
+
+
+        
+
+        <script>  // Script is placed at the bottom of the <body> element to improve display speed as recomended on w3schools.com
+                  // This script dispalys a random message each time the page is loaded.  
+          var person = [
+            "Other paintings",
+            "Look at these other paintings",
+            "More bellow",
+            "Additional paintings",
+            "And more...",
+            "There's more!"
+          ];
+          
+
+          var x = Math.floor(Math.random() * 6);
+          
+          // var text = "<ul>";
+          // person.forEach(mfunction);
+          // text += "</ul>";
+
+          // function mfunction(value){
+          //   text += "<li>" + value + "</li>";
+          // }
+    
+          document.getElementById("demo").innerHTML = person[x];
+
+        </script>
+
+    </body>
+
+    <footer>
+        <br>
+        <small>
+            All images appearing on this web page are created and owned by Murray Gainer.
+        </small>
+    </footer>
+    <br>
+    <address>Web page created by Sam Gainer <br> Last updated 2/22/2021</address>
+    </html>
